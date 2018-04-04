@@ -1,0 +1,5 @@
+ghdl -a bubblesort.vhd
+ghdl -a bubble.vhd
+ghdl -a bubblesort_tb.vhd
+ghdl -e bubblesort_tb
+ghdl -r bubblesort_tb --wave=bubblesort_tb.ghw
